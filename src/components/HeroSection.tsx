@@ -11,7 +11,7 @@ const HeroSection = () => {
           Create a world tour from your phone
         </h1>
         <p></p>
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
+        <p className="text-neutral-400 max-w-lg mx-auto my-4 text-sm text-center relative z-10">
           Unlock performance opportunities worldwide with cutting-edge music
           data analytics. Seamlessly discover gigs, optimize tour schedules, and
           elevate your live music career, all from the convenience of your

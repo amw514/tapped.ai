@@ -1,3 +1,4 @@
+import BookingInfoSection from "@/components/BookingInfoSection";
 import HeroSection from "@/components/HeroSection";
 import ImageGallery from "@/components/ImageGallery";
 import { PitchCard } from "@/components/PitchCard";
@@ -11,6 +12,7 @@ export default function Home() {
     <HeroSection/>
     <ImageGallery/>
     <PitchCard/>
+    <BookingInfoSection/>
     </div>
   );
 }

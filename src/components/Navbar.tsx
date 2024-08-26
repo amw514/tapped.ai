@@ -19,7 +19,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <div className="fixed">
+    <div>
         <FloatingNav
           navItems={navItems}/>
     </div>

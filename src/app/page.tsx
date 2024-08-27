@@ -4,10 +4,10 @@ import HeroSection from "@/components/HeroSection";
 import ImageGallery from "@/components/ImageGallery";
 import NetworkingVideoSection from "@/components/NetworkingVideoSection";
 import { PitchCard } from "@/components/PitchCard";
+import PressSection from "@/components/PressSection";
 import Spotlight from "@/components/Spotlight";
 import { Testimonial } from "@/components/Testimonial";
-import { FloatingNav } from "@/components/ui/floating-navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <Channel />
       <Testimonial/>
       <NetworkingVideoSection/>
+      <PressSection/>
     </div>
   );
 }

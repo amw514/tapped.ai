@@ -19,7 +19,7 @@ const AboutUs = () => {
           <br />
           <br />
           Our mission is simple: to empower artists with the tools and knowledge
-          they need to thrive on the world stage. whether you're a budding
+          they need to thrive on the world stage. whether you&apos;re a budding
           talent or a seasoned superstar, our innovative approach ensures that
           every aspect of your tour is optimized for success.
         </p>
@@ -27,7 +27,7 @@ const AboutUs = () => {
           Our Approach
         </h2>
         <p className="text-neutral-400 max-w-xl mx-auto my-4 text-sm text-center relative z-10">
-          At tapped, we understand that no two artists are alike. that's why our
+          At tapped, we understand that no two artists are alike. that&apos;s why our
           solutions are as unique as the performers we serve. our dedicated team
           of experts works closely with each client to understand their vision,
           preferences, and goals, crafting a personalized tour strategy that

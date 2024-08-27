@@ -41,7 +41,7 @@ const FAQs = () => {
           Yes, you can cancel your subscription at any time. Upon cancellation:
           <ul className="list-disc list-inside mt-2">
             <li>Your subscription will remain active until the end of the current billing period</li>
-            <li>You'll still have access to the subscribed features until the end of your billing cycle</li>
+            <li>You will still have access to the subscribed features until the end of your billing cycle</li>
             <li>After the billing cycle ends, the subscription will terminate automatically</li>
           </ul>
         </AccordionContent>

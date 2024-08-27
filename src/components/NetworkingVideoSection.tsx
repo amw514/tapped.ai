@@ -11,7 +11,7 @@ const NetworkingVideoSection = () => {
         a networking event to bring together a room of music, tech, and
         investors to connect and elevate their careers.
       </p>
-      <div className="flex flex-col md:flex-row relative rounded-2xl p-1 overflow-hidden my-6">
+      <div className="flex flex-col md:flex-row gap-4 relative rounded-2xl p-1 overflow-hidden my-6">
         <HeroVideoDialog
           animationStyle="top-in-bottom-out"
           videoSrc="https://www.youtube.com/embed/iWDIax023zQ"
@@ -24,6 +24,8 @@ const NetworkingVideoSection = () => {
           thumbnailSrc="/networking-vid-2.png"
           thumbnailAlt="Video thumbnail"
         />
+      </div>
+      <div className="max-w-2xl mx-auto gap-4 relative rounded-2xl p-1 overflow-hidden my-6">
         <HeroVideoDialog
           animationStyle="top-in-bottom-out"
           videoSrc="https://www.youtube.com/embed/LWieY6ON4kA"

@@ -24,7 +24,6 @@ export default function Home() {
       <NetworkingVideoSection/>
       <PressSection/>
       <FAQs/>
-      {/* <Footer/> */}
     </div>
   );
 }

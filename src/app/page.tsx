@@ -8,7 +8,6 @@ import { PitchCard } from "@/components/PitchCard";
 import PressSection from "@/components/PressSection";
 import Spotlight from "@/components/Spotlight";
 import { Testimonial } from "@/components/Testimonial";
-import Footer from "@/components/Footer";
 
 
 export default function Home() {

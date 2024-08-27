@@ -61,7 +61,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        <div className="hidden sm:block">Tapped Ai</div>
+        <div className="hidden sm:block">tapped ai</div>
         <div className="flex space-x-3">
           {navItems.map((navItem: any, idx: number) => (
             <Link

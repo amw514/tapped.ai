@@ -5,10 +5,10 @@ const PressSection = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl mb-8 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        Recent Press
+        recent press
       </h1>
       <p className="text-neutral-400 max-w-lg mx-auto my-4 text-lg text-center relative z-10">
-        Find out how Ilias and Johannes tricked the music industry to end up
+        find out how ilias and johannes tricked the music industry to end up
         meeting the three biggest multi billion dollar corporations in the
         space.
       </p>

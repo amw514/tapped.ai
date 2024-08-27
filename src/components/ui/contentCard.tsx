@@ -2,13 +2,13 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const founders = [
   {
-    name: "Johannes Naylor",
-    role: "Co-Founder",
+    name: "johannes naylor",
+    role: "co-founder",
     image: "/johannes-naylor.jpeg"
   },
   {
-    name: "Ilias Anwar",
-    role: "Co-Founder",
+    name: "ilias anwar",
+    role: "co-founder",
     image: "/illiasanwar.jpg"
   }
 ]

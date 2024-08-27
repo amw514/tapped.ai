@@ -7,8 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tapped AI",
-  description: "Live music bookings powered by data. Tapped AI is leveraging data analytics to match performers (musicians) with the perfect venues for their performances."
+  title: "tapped ai",
+  description:
+    "live music bookings powered by data. tapped ai is leveraging data analytics to match performers (musicians) with the perfect venues for their performances.",
 };
 
 export default function RootLayout({
@@ -21,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} dark`}>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

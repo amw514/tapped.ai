@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
-            <h2 className="font-bold text-lg mb-4 text-primary">Company</h2>
+            <h2 className="font-bold text-lg mb-4 text-primary">company</h2>
             <ul className="space-y-2">
               <li>
                 <a
                   href="https://tapped.tolt.io/"
                   className="hover:text-primary transition-colors"
                 >
-                  Referral Program
+                  referral program
                 </a>
               </li>
               <li>
@@ -23,7 +23,7 @@ const Footer = () => {
                   href="https://tappedapp.notion.site/join-tapped-9ccf655358344b21979f73adadf22d98?pvs=74"
                   className="hover:text-primary transition-colors"
                 >
-                  Careers
+                  careers
                 </a>
               </li>
               <li>
@@ -31,7 +31,7 @@ const Footer = () => {
                   href="https://tappedapp.notion.site/the-record-label-of-the-future-cf8298dd5c6d4b5b800f11eced46c261?pvs=4"
                   className="hover:text-primary transition-colors"
                 >
-                  Neo Record Label
+                  neo record label
                 </a>
               </li>
               <li>
@@ -39,7 +39,7 @@ const Footer = () => {
                   href="https://blog.tapped.ai/"
                   className="hover:text-primary transition-colors"
                 >
-                  Blog
+                  blog
                 </a>
               </li>
               <li>
@@ -47,20 +47,20 @@ const Footer = () => {
                   href="mailto:support@tapped.ai?subject=Hi"
                   className="hover:text-primary transition-colors"
                 >
-                  Contact Us
+                  contact us
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className="font-bold text-lg mb-4 text-primary">Tool Suite</h2>
+            <h2 className="font-bold text-lg mb-4 text-primary">tool suite</h2>
             <ul className="space-y-2">
               <li>
                 <a
                   href="https://getmusicart.com/"
                   className="hover:text-primary transition-colors"
                 >
-                  Cover Art
+                  cover art
                 </a>
               </li>
               <li>
@@ -68,7 +68,7 @@ const Footer = () => {
                   href="https://getmusicepk.com/"
                   className="hover:text-primary transition-colors"
                 >
-                  Press Kit
+                  press kit
                 </a>
               </li>
               <li>
@@ -76,7 +76,7 @@ const Footer = () => {
                   href="https://getmusicmarketing.com/"
                   className="hover:text-primary transition-colors"
                 >
-                  Marketing Plan
+                  marketing plan
                 </a>
               </li>
               <li>
@@ -84,7 +84,7 @@ const Footer = () => {
                   href="https://getmusicviralchecker.com/"
                   className="hover:text-primary transition-colors"
                 >
-                  Viral Checker
+                  viral checker
                 </a>
               </li>
               <li>
@@ -92,20 +92,20 @@ const Footer = () => {
                   href="https://getmusiccontent.com/"
                   className="hover:text-primary transition-colors"
                 >
-                  Social Media Ideas
+                  social media ideas
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className="font-bold text-lg mb-4 text-primary">Legal</h2>
+            <h2 className="font-bold text-lg mb-4 text-primary">legal</h2>
             <ul className="space-y-2">
               <li>
                 <a
                   href="https://app.tapped.ai/privacy"
                   className="hover:text-primary transition-colors"
                 >
-                  Privacy Policy
+                  privacy policy
                 </a>
               </li>
               <li>
@@ -113,7 +113,7 @@ const Footer = () => {
                   href="https://app.tapped.ai/terms"
                   className="hover:text-primary transition-colors"
                 >
-                  Terms & Conditions
+                  terms & conditions
                 </a>
               </li>
               <li>
@@ -121,13 +121,13 @@ const Footer = () => {
                   href="https://app.tapped.ai/eula"
                   className="hover:text-primary transition-colors"
                 >
-                  EULA
+                  eula
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className="font-bold text-lg mb-4 text-primary">Download</h2>
+            <h2 className="font-bold text-lg mb-4 text-primary">download</h2>
             <ul className="space-y-4">
               <li>
                 <a
@@ -135,7 +135,7 @@ const Footer = () => {
                   className="inline-flex items-center hover:text-primary transition-colors"
                 >
                   <Apple className="mr-2" size={20} />
-                  <span>iOS</span>
+                  <span>ios</span>
                 </a>
               </li>
               <li>
@@ -144,7 +144,7 @@ const Footer = () => {
                   className="inline-flex items-center hover:text-primary transition-colors"
                 >
                   <IconBrandAndroid className="mr-2" size={20} />
-                  <span>Android</span>
+                  <span>android</span>
                 </a>
               </li>
               <li>
@@ -153,7 +153,7 @@ const Footer = () => {
                   className="inline-flex items-center hover:text-primary transition-colors"
                 >
                   <Code className="mr-2" size={20} />
-                  <span>API</span>
+                  <span>api</span>
                 </a>
               </li>
             </ul>
@@ -161,7 +161,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 pt-8 border-t border-gray-200 text-center">
           <p>
-            &copy; {new Date().getFullYear()} Tapped AI. All rights reserved.
+            &copy; {new Date().getFullYear()} tapped ai. all rights reserved.
           </p>
         </div>
       </div>

@@ -9,11 +9,13 @@ export function PitchCard() {
 }
 export const projects = [
   {
-    title: "100k",
+    title: "100k Performers",
     description: (
       <>
-        <h4 className="mb-4 underline">Join a thriving community of performers.</h4>
-       
+        <h4 className="mb-4 underline">
+          Join a thriving community of performers.
+        </h4>
+
         <p>
           Connect with a diverse network of artists and entertainers, sharing
           experiences and opportunities to elevate your live music career.
@@ -23,11 +25,11 @@ export const projects = [
     link: "/",
   },
   {
-    title: "35k",
+    title: "35k Venues",
     description: (
       <>
         <h4 className="mb-4 underline">Access a vast network of venues</h4>
-       
+
         <p>
           Discover and book performances at top venues worldwide, from intimate
           clubs to grand arenas, tailored to suit your style and audience.
@@ -37,11 +39,13 @@ export const projects = [
     link: "/",
   },
   {
-    title: "160k",
+    title: "160k Bookings",
     description: (
       <>
-        <h4 className="mb-4 underline">Leverage over 160K successful bookings</h4>
-        
+        <h4 className="mb-4 underline">
+          Leverage over 160K successful bookings
+        </h4>
+
         <p>
           Benefit from our extensive booking data to optimize your tour plans,
           ensuring you perform at the right places, at the right times, for the

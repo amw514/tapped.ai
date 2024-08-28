@@ -9,6 +9,7 @@ import {
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import GettingStartButton from "../GettingStartButton";
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -57,11 +58,15 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex  w-full sm:w-9/12   fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-lg bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 z-[5000] pr-2 pl-8 py-2  items-center justify-between space-x-4",
+          "flex  w-full sm:w-9/12  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-lg bg-[#1B1B1B] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 z-[5000] pr-2 pl-8 py-2  items-center justify-between space-x-4",
           className
         )}
       >
-        <div className="hidden sm:block">tapped ai</div>
+        <div className="hidden sm:block">
+          <Link href="https://app.tapped.ai/">
+            <Image src="/logo.svg" alt="logo" width={130} height={70} />
+          </Link>
+        </div>
         <div className="flex space-x-3">
           {navItems.map((navItem: any, idx: number) => (
             <Link
@@ -76,7 +81,7 @@ export const FloatingNav = ({
           ))}
         </div>
         <div>
-         <GettingStartButton/>
+          <GettingStartButton />
         </div>
       </motion.div>
     </AnimatePresence>

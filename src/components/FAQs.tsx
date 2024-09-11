@@ -22,7 +22,12 @@ const FAQs = () => {
             <li>priority customer support</li>
             <li>regular updates with the latest industry trends and data enhancements</li>
           </ul>
-          this ensures you have a competitive edge in the music industry.
+          <Button variant="outline" className="mt-4" asChild>
+            <a href="https://app.tapped.ai/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+              visit our page
+              <ExternalLink className="ml-2 h-4 w-4" />
+            </a>
+          </Button>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
@@ -33,6 +38,12 @@ const FAQs = () => {
             <li>$10 on desktop</li>
             <li>$12.99 on the app store</li>
           </ul>
+          <Button variant="outline" className="mt-4" asChild>
+            <a href="https://app.tapped.ai/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+              visit our page
+              <ExternalLink className="ml-2 h-4 w-4" />
+            </a>
+          </Button>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
@@ -44,6 +55,7 @@ const FAQs = () => {
             <li>you will still have access to the subscribed features until the end of your billing cycle</li>
             <li>after the billing cycle ends, the subscription will terminate automatically</li>
           </ul>
+          
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">

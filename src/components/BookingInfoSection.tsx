@@ -7,9 +7,9 @@ const BookingInfoSection = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
-          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 ">live music bookings powered by data</h2>
+          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-100 ">live music bookings powered by data</h2>
           <p className="text-lg text-muted-foreground">
-            tapped ai is leveraging data analytics to match performers (musicians)
+            tappedx is leveraging data analytics to match performers (musicians)
             with the perfect venues for their performances. our technology will
             help you open for bigger performers, get shows in your city, and help
             you throw your next tour.

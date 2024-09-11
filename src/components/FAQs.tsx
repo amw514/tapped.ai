@@ -11,9 +11,9 @@ const FAQs = () => {
         </h2>
     <Accordion type="single" collapsible className="w-full max-w-2xl mx-auto">
       <AccordionItem value="item-1">
-        <AccordionTrigger>why should I upgrade to tapped ai premium?</AccordionTrigger>
+        <AccordionTrigger>why should I upgrade to tappedx premium?</AccordionTrigger>
         <AccordionContent>
-          upgrading to tapped ai premium unlocks a suite of advanced features designed to significantly enhance your booking and touring capabilities. with premium, you gain:
+          upgrading to tappedx premium unlocks a suite of advanced features designed to significantly enhance your booking and touring capabilities. with premium, you gain:
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>unlimited access to in-depth analytics</li>
             <li>comprehensive data sets</li>
@@ -47,7 +47,7 @@ const FAQs = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">
-        <AccordionTrigger>is there a tutorial on how to use tapped ai?</AccordionTrigger>
+        <AccordionTrigger>is there a tutorial on how to use tappedx?</AccordionTrigger>
         <AccordionContent>
           yes! we have a video tutorial from our founder johannes naylor. you can:
           <ul className="list-disc list-inside mt-2">

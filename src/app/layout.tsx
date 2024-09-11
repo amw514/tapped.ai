@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "tapped ai",
+  title: "tappedx",
   description:
     "live music bookings powered by data. tapped ai is leveraging data analytics to match performers (musicians) with the perfect venues for their performances.",
 };

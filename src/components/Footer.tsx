@@ -1,56 +1,88 @@
 import { IconBrandAndroid } from "@tabler/icons-react";
-import { Apple, Code } from "lucide-react";
+import { Apple, Code, Youtube, Instagram, Linkedin } from "lucide-react";
 import React from "react";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
-          <div className="col-span-2 md:col-span-4 lg:col-span-1">
-            <h2 className="font-bold text-lg mb-4 text-primary">company</h2>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://tapped.tolt.io/"
-                  className="hover:text-primary transition-colors"
-                >
-                  referral program
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tappedapp.notion.site/join-tapped-9ccf655358344b21979f73adadf22d98?pvs=74"
-                  className="hover:text-primary transition-colors"
-                >
-                  careers
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tappedapp.notion.site/the-record-label-of-the-future-cf8298dd5c6d4b5b800f11eced46c261?pvs=4"
-                  className="hover:text-primary transition-colors"
-                >
-                  neo record label
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://blog.tapped.ai/"
-                  className="hover:text-primary transition-colors"
-                >
-                  blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:support@tapped.ai?subject=Hi"
-                  className="hover:text-primary transition-colors"
-                >
-                  contact us
-                </a>
-              </li>
-            </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="space-y-6">
+            <div>
+              <h2 className="font-bold text-lg mb-4 text-primary">company</h2>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="https://tapped.tolt.io/"
+                    className="hover:text-primary transition-colors"
+                  >
+                    referral program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://tappedapp.notion.site/join-tapped-9ccf655358344b21979f73adadf22d98?pvs=74"
+                    className="hover:text-primary transition-colors"
+                  >
+                    careers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://tappedapp.notion.site/the-record-label-of-the-future-cf8298dd5c6d4b5b800f11eced46c261?pvs=4"
+                    className="hover:text-primary transition-colors"
+                  >
+                    neo record label
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://blog.tapped.ai/"
+                    className="hover:text-primary transition-colors"
+                  >
+                    blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:support@tapped.ai?subject=Hi"
+                    className="hover:text-primary transition-colors"
+                  >
+                    contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="font-bold text-lg mb-4 text-primary">legal</h2>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="https://app.tapped.ai/privacy"
+                    className="hover:text-primary transition-colors"
+                  >
+                    privacy policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://app.tapped.ai/terms"
+                    className="hover:text-primary transition-colors"
+                  >
+                    terms & conditions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://app.tapped.ai/eula"
+                    className="hover:text-primary transition-colors"
+                  >
+                    eula
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
             <h2 className="font-bold text-lg mb-4 text-primary">tool suite</h2>
@@ -98,35 +130,6 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="font-bold text-lg mb-4 text-primary">legal</h2>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://app.tapped.ai/privacy"
-                  className="hover:text-primary transition-colors"
-                >
-                  privacy policy
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://app.tapped.ai/terms"
-                  className="hover:text-primary transition-colors"
-                >
-                  terms & conditions
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://app.tapped.ai/eula"
-                  className="hover:text-primary transition-colors"
-                >
-                  eula
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
             <h2 className="font-bold text-lg mb-4 text-primary">download</h2>
             <ul className="space-y-4">
               <li>
@@ -158,15 +161,39 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <h2 className="font-bold text-lg mb-4 text-primary">connect</h2>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="https://www.youtube.com/@TappedAi_"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-primary hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110"
+                aria-label="YouTube"
+              >
+                <FaYoutube size={20} />
+              </a>
+              <a
+                href="https://www.instagram.com/tappedai/"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-primary hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110"
+                aria-label="Instagram"
+              >
+                <FaInstagram size={20} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/tappedai/"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-full  hover:bg-primary hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={20} />
+              </a>
+            </div>
+          </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-200 text-center">
-          <p>
-            &copy; {new Date().getFullYear()} tapped ai. all rights reserved.
+          <p className="text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} tappedx. all rights reserved.
           </p>
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

@@ -1,7 +1,7 @@
 import { IconBrandAndroid } from "@tabler/icons-react";
 import { Apple, Code, Youtube, Instagram, Linkedin } from "lucide-react";
 import React from "react";
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -170,6 +170,13 @@ export default function Footer() {
                 aria-label="YouTube"
               >
                 <FaYoutube size={20} />
+              </a>
+              <a
+                href="https://twitter.com/tappedai"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-primary hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110"
+                aria-label="Twitter"
+              >
+                <FaTwitter size={20} />
               </a>
               <a
                 href="https://www.instagram.com/tappedai/"

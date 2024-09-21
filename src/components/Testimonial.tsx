@@ -16,22 +16,22 @@ const testimonials = [
   {
     quote: "this product has changed my life. i cannot imagine a day without it!",
     name: "john draw",
-    title: "ceo",
+    title: "artist",
   },
   {
     quote: "the customer service is exceptional. they were there every step of the way.",
     name: "jane smith",
-    title: "freelancer",
+    title: "musician",
   },
   {
     quote: "i have seen a significant improvement in my productivity since using this product.",
     name: "bob johnson",
-    title: "software engineer",
+    title: "writer",
   },
   {
     quote: "i was skeptical at first, but now I can't recommend it enough!",
     name: "alice williams",
-    title: "digital marketer",
+    title: "event planner",
   },
   {
     quote: "the best investment i have made in years. absolutely worth it!",

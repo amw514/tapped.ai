@@ -24,8 +24,6 @@ const NetworkingVideoSection = () => {
           thumbnailSrc="/networking-vid-2.png"
           thumbnailAlt="Video thumbnail"
         />
-      </div>
-      <div className="max-w-2xl mx-auto gap-4 relative rounded-2xl p-1 overflow-hidden my-6">
         <HeroVideoDialog
           animationStyle="top-in-bottom-out"
           videoSrc="https://www.youtube.com/embed/LWieY6ON4kA"
@@ -33,6 +31,7 @@ const NetworkingVideoSection = () => {
           thumbnailAlt="Video thumbnail"
         />
       </div>
+    
     </div>
   );
 };

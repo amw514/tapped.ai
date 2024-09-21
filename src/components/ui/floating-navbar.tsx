@@ -25,16 +25,24 @@ export const FloatingNav = ({
   return (
     <div
       className={cn(
-        "flex  w-full sm:w-9/12  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-lg bg-[#1B1B1B] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 z-[5000] pr-2 pl-8 py-2  items-center justify-between space-x-4",
+        "flex  w-full sm:w-9/12  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-lg bg-[#1B1B1B] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 z-[5000] px-2  py-2  items-center justify-between space-x-4",
         className
       )}
     >
       <div className="block">
-        <Link href="/">
-          <Image src="/logo.svg" alt="logo" width={130} height={70} />
+        <Link
+          href="/"
+        >
+          <Image
+            src="/tappedxx.svg"
+            alt="logo"
+            width={160}
+            height={40}
+          />
+
         </Link>
       </div>
-      <div className="flex space-x-3">
+      <div className="flex space-x-4 md:space-x-8 ">
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
@@ -47,7 +55,8 @@ export const FloatingNav = ({
           </Link>
         ))}
       </div>
-      <div>
+      <div className="hidden sm:block">
+        {" "}
         <GettingStartButton />
       </div>
     </div>

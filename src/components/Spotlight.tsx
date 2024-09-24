@@ -8,7 +8,10 @@ const Spotlight = () => {
         <h1 className="text-4xl mb-8 md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-100 bg-opacity-50">
         reach 50,000+ venues with detailed analytics
         </h1>
+        <div className="spotlight-hover">
+
         <VideoDialogue/>
+        </div>
       </div>
     </div>
   );

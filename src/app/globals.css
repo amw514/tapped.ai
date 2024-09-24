@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.spotlight-hover:hover {
+  transform: scale(1.05); /* Example effect: scale up the component */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -1,7 +1,7 @@
 import FAQs from "@/components/FAQs";
 import BookingInfoSection from "@/components/BookingInfoSection";
 import Channel from "@/components/Channel";
-import HeroSection from "@/components/HeroSection";
+import {HeroSection} from "@/components/HeroSection";
 import ImageGallery from "@/components/ImageGallery";
 import NetworkingVideoSection from "@/components/NetworkingVideoSection";
 import { PitchCard } from "@/components/PitchCard";

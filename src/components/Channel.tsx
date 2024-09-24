@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import HeroVideoDialog from "./magicui/hero-video-dialog";
 
 const Channel = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container h mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-100 ">

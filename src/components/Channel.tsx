@@ -8,7 +8,7 @@ const Channel = () => {
     <div className="container h mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left">
-          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-100 ">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-100 ">
             uniting music, tech, and investment pioneers
           </h2>
           <p className="text-lg text-muted-foreground">
@@ -26,14 +26,20 @@ const Channel = () => {
             </span>
           </button>
         </div>
-        <div className="hidden md:block md:w-1/2 mt-8 md:mt-0">
-          <Image
+        <div className="w-full h-auto md:w-1/2 mt-8 md:mt-0">
+        <HeroVideoDialog
+          animationStyle="top-in-bottom-out"
+          videoSrc="https://www.youtube.com/embed/ZMvSbU8rTOM"
+          thumbnailSrc="/press-img-1.png"
+          thumbnailAlt="Video thumbnail"
+        />
+          {/* <Image
             src="/Comp.png"
             alt="computer music"
             width={500}
             height={500}
             className="w-full h-auto rounded-lg shadow-lg"
-          />
+          /> */}
         </div>
       </div>
     </div>

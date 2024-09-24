@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
-      <ImageGallery />
+      {/* <ImageGallery /> */}
       <PitchCard />
       <BookingInfoSection />
       <Spotlight />

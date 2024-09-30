@@ -28,17 +28,17 @@ const AboutUs = () => {
           our approach
         </h2>
         <p className="text-neutral-400 max-w-xl mx-auto my-4 text-sm text-center relative z-10 p-4">
-          at tapped, we understand that no two artists are alike. that&apos;s why our
-          solutions are as unique as the performers we serve. our dedicated team
-          of experts works closely with each client to understand their vision,
-          preferences, and goals, crafting a personalized tour strategy that
-          exceeds expectations.
+          at tapped, we understand that no two artists are alike. that&apos;s
+          why our solutions are as unique as the performers we serve. our
+          dedicated team of experts works closely with each client to understand
+          their vision, preferences, and goals, crafting a personalized tour
+          strategy that exceeds expectations.
         </p>
       </div>
-      <h2 className="py-10 relative z-10 text-md mb-6 md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300  text-center font-sans font-bold">
-          founders
-        </h2>
-      <AboutTeam/>
+
+      <div>
+        <AboutTeam />
+      </div>
     </div>
   );
 };
